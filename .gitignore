@@ -1,0 +1,17 @@
+# Virtual environment (platform-specific, rebuilt via install scripts)
+.venv/
+
+# Converted/source legal documents stay local only — never commit client files
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+
+# Runtime logs
+logs/*
+!logs/.gitkeep
+
+# Python / OS cruft
+__pycache__/
+*.pyc
+.DS_Store
