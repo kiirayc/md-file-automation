@@ -14,4 +14,5 @@ logs/*
 # Python / OS cruft
 __pycache__/
 *.pyc
+.pytest_cache/
 .DS_Store
